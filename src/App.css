@@ -1,0 +1,173 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  color: #000000;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e7dada;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding-top: 113px;
+}
+
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url('../src/images/header-bg.jpg') no-repeat center top /cover;
+  padding-top: 57px;
+  color: #fff;
+  padding-bottom: 15em;
+}
+
+header a {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+
+}
+
+.logo {
+  margin-right: 69px;
+}
+
+
+.menu li {
+  margin-right: 40px;
+}
+
+.tel {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.offer {
+  text-transform: uppercase;
+  margin-top: 216px;
+}
+
+.offer p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.offer h1 {
+  font-size: 100px;
+  margin-top: -9px;
+  margin-bottom: 19px;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+.desc-left, .desc-right {
+  width: 567px;
+}
+
+.gallery {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+
+.footer {
+  color: #808080;
+  background: #FFF8DC;
+
+}
+
+.footer-text {
+  font-size: 85%;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  margin-bottom: 20px;
+
+
+  /* padding: 113px 0; */
+}
+
+.footer-text p {
+  margin-right: 60px;
+}
+
+.contact {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+
+}
